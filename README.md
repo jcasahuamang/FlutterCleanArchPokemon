@@ -6,7 +6,7 @@ it tends to use clean architecture, consuming an API free to return a list of po
 
 Original idea from Rick Code's youtube channel
 
-- [Rick Code's Video Link:] (https://www.youtube.com/watch?v=AKoRKAISNLE&t=224s)
+- [Rick Code's Video Link:](https://www.youtube.com/watch?v=AKoRKAISNLE&t=224s)
 
 
 ## Getting Started
