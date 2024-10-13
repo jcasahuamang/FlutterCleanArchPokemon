@@ -2,7 +2,7 @@
 
 A new Flutter project for learning reason.
 
-it tends to use clean architecture, consuming an API free to return a list of pokemons
+I attempts to use clean architecture, consuming an API free to return a list of pokemons
 
 Original idea from Rick Code's youtube channel
 
