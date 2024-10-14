@@ -4,10 +4,22 @@ class PokemonModel extends PokemonEntity {
   PokemonModel({required super.name, required super.image, required super.id});
 
   factory PokemonModel.fromJson(json) {
+
+/*
+    final Map<String, dynamic> jsonData = jsonDecode(json.data);
+
+    return PokemonModel(
+        name: jsonData['name'],
+        image: jsonData['sprites']['front_default'],
+        id: jsonData['id']);
+*/
+    
+  
     return PokemonModel(
         name: json['name'],
         image: json['sprites']['front_default'],
         id: json['id']);
+        
   }
 
   Map<String, dynamic> toJson() {

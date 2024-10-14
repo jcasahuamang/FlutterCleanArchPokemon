@@ -11,7 +11,7 @@ class PokemonsRemoteDataSourceImpl extends PokemonsRemoteDataSource{
   Future<PokemonModel> getPokemon(int id) async{
     final resp =  await dio.get('https://pokeapi.co/api/v2/pokemon/$id/');
 
-      return PokemonModel.fromJson(resp);
+      return PokemonModel.fromJson(resp.data);
   }
 
 }
